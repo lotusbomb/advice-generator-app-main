@@ -33,10 +33,15 @@ body{
     color: hsl(150, 100%, 66%);
 }
 
+.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 .pattern{
     width: 100%;
-    margin-bottom: .5rem;
+    margin-bottom: .9rem;
 }
 
 .box{
@@ -46,5 +51,12 @@ body{
     padding: 1rem;
     bottom: -2rem;
     position: absolute;
-    left: 15.2rem;
+}
+
+@media (max-width: 358px) {
+    {
+        .text{
+            font-size: 1rem;
+        }
+    }
 }
